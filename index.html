@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible"
+        content="IE=edge">
+    <link rel="stylesheet"
+        href="style.css">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- nav section-->
+    <nav>
+        <div class="top-nav">
+            <div class="top-left-nav">
+                <!--!missing cat image file-->
+                <img src="./icons/cat.png"
+                    alt="cat image">
+                <h1>CodeIt</h1>
+                <input placeholder="search"
+                    type="text">
+                <button>Go</button>
+            </div>
+            <div class="top-right-nav">
+                <button class="getApp">Get App</button>
+                <button onclick="switchMe(this)" class="login">Log in</button>
+
+            </div>
+            <div class="bot-nav">
+                <div class="bot-nav-upper">
+                    <img src="./icons/cat.png"
+                        alt="cat image">
+                    <h2>c/Dojo</h2>
+                    <button onclick="removeMe(this)">Join</button>
+                </div>
+                <div class="bot-nav-lower">
+                    <!-- list of links-->
+                    <ul>
+                        <li>
+                            <a href="#">Posts</a>
+                        </li>
+                        <li>
+                            <a href="#">Wiki</a>
+
+                        </li>
+                        <li>
+                            <a href="#">c/Dojo</a>
+
+                        </li>
+                        <li>
+                            <a href="#">Discord</a>
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- main content -->
+    <div class="main-content">
+        <!-- left column -->
+        <div class="left-column">
+            <div class="post-one"></div>
+            <div class="post-two"></div>
+        </div>
+        <!-- right column -->
+        <div class="right-column">
+            <div class="about-dojo">
+
+            </div>
+            <div class="discord">
+
+            </div>
+            <div class="dojo-rules">
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
